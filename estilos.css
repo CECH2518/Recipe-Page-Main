@@ -1,0 +1,78 @@
+
+
+body {
+	background: #F2E4D8;
+  	display: flex;
+  	justify-content: center; /* Centra horizontalmente */
+  	align-items: center; /* Centra verticalmente */
+  	height: 270vh; /* Hace que el body ocupe toda la altura del viewport */
+  	margin: 0;
+  	 /* Elimina el margen predeterminado del body */
+}
+
+main {
+	width: 50%;
+  	background-color: white; /* Solo para visualización */
+  	padding: 30px; /* Añade un poco de espacio alrededor del contenido */
+  	overflow: hidden; /* Evita que el contenido se salga del main */
+  	margin: 10px; /* Añade margen exterior al main */
+}
+
+img{
+	max-width: 100%; /* Ajusta el tamaño máximo de la imagen al ancho del main */
+  	height: auto; /* Mantiene la proporción de aspecto de la imagen */
+  	border-radius: 20px;
+}
+div{
+	padding: 5px;
+	text-align: justify;
+}
+.div{
+	background-color: #ffe9ff;
+	border-radius: 10px;
+}
+div ul li{
+	margin: 10px;
+}
+hr{
+	width: 80%;
+	size: 1;
+
+}
+h3{
+	color: #61223F;
+}
+h2{
+	color: #7A4335;
+}
+table {
+      width: 100%;
+      border-collapse: collapse;
+
+    }
+
+th, td {
+      border-bottom: 1px solid gray;
+      padding: 8px;
+      text-align: left;
+    }
+.td{
+	border-bottom: none;
+}
+.td2{
+	border-bottom: none;
+	color: #7A4335;
+}
+.color{
+	color: #7A4335;
+}
+footer{
+	background: white ;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
